@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=lato);
+
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    background: #dc9df1; margin:40px;
+}
+ 
+
+.refrigerator{
+    width: 1100px;
+    height: 900px;
+    background: #ff7a4a;
+    border: 8px solid #333;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+ 
+
+}
+
+  
+.handle {
+    width: 20px;
+    height: 150px;
+    background-color: #333;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+   
+}
+
+ #create,textarea{
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    padding: 25px 25px 40px;
+    width: 250px;
+    height: 250px;
+ 
+    
+}
+#create {
+    user-select: none;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 15px solid white;
+    cursor: pointer;
+    color: white;
+    font: 220px "Helvetica" , sans-serif;
+    line-height: 185px;
+  
+}
+#create:hover{border-color: rgba(0, 0, 0,0.1); color: rgba(0, 0, 0, 0.2);}
+
+textarea{
+    font: 30px 'lato';
+    color: black;
+    line-height: 1.5;
+    border: 0;
+    background: #f1d96a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0,0.1);
+    overflow: hidden;
+    transition: box-shadow 0.5s ease;
+    max-width: 520px;
+    max-height: 520px;
+   
+        
+} 
+
+textarea:hover{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+ textarea:focus{
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2) ;
+    outline: none;
+} 
